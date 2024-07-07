@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bytf12npme4y0"]
+
+[ext_resource type="AudioStream" uid="uid://b88l4rlhd6y2l" path="res://Assets/music/DESINGERICA X PLJUGICA X DJEXON X COJA - MERCCEDECC (OFFICIAL VIDEO).mp3" id="1_8vq7u"]
+
+[node name="Music" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_8vq7u")
+autoplay = true
+bus = &"Music"
